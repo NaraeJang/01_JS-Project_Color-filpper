@@ -11,5 +11,5 @@ btn.addEventListener("click", function () {
 });
 
 function getRandomeNumber() {
-  return Math.floor(Math.random() * 10);
+  return Math.floor(Math.random() * colors.length); //Multiply with the color array's length.
 }
